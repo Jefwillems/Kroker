@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kroker.Core", "Kroker.Core\Kroker.Core.csproj", "{BD359C73-F5AA-44C6-A0B5-5B6BDE1EC729}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0320200-E99B-4BDC-A8B8-9A0E275FA749}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD359C73-F5AA-44C6-A0B5-5B6BDE1EC729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD359C73-F5AA-44C6-A0B5-5B6BDE1EC729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD359C73-F5AA-44C6-A0B5-5B6BDE1EC729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD359C73-F5AA-44C6-A0B5-5B6BDE1EC729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

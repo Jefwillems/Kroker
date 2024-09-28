@@ -1,0 +1,6 @@
+﻿services:
+  kroker.core:
+    image: kroker.core
+    build:
+      context: .
+      dockerfile: Kroker.Core/Dockerfile
