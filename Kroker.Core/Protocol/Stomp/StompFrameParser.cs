@@ -12,6 +12,8 @@ public class StompFrameParser : IStompFrameParser, IStompFrameWriter
         var reader = new BufferReader(buffer);
         var command = ReadLineTerminatedString(ref reader);
         var headers = ParseHeaders(ref reader);
+
+        // TODO: handle null octets and content-length headers
         var body = ParseBody(ref reader);
 
         frame = new StompFrame(command, headers, body);
